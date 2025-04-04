@@ -12,6 +12,10 @@ header {
     padding: 1rem 0;
 }
 
+header p {
+    margin: 2rem;
+}
+
 .banner {
     background-image: url(/imagem/banner\ japan.jpg);
     background-size: cover;
@@ -126,7 +130,7 @@ footer {
 /* Adicionar media query para tornar o projeto responsivo */
 @media(min-width: 768px) {
     main {
-        width: 60%;
+        width: 70%;
     }
 
     .categoria {
